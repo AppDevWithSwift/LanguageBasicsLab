@@ -13,7 +13,20 @@
 		19C4CB8F25C4356500EA8238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C4CB8E25C4356500EA8238 /* Assets.xcassets */; };
 		19C4CB9225C4356500EA8238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C4CB9125C4356500EA8238 /* Preview Assets.xcassets */; };
 		19C4CB9525C4356500EA8238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C4CB9325C4356500EA8238 /* LaunchScreen.storyboard */; };
+		19C4CBA425C4358500EA8238 /* LanguageBasicsLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C4CBA325C4358500EA8238 /* LanguageBasicsLabTests.swift */; };
+		19C4CBAE25C4359300EA8238 /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C4CBAD25C4359300EA8238 /* Lab.swift */; };
+		19C4CBB125C4359A00EA8238 /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C4CBAD25C4359300EA8238 /* Lab.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C4CBA625C4358500EA8238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C4CB7D25C4356300EA8238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C4CB8425C4356300EA8238;
+			remoteInfo = LanguageBasicsLab;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		19C4CB8525C4356300EA8238 /* LanguageBasicsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageBasicsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +37,21 @@
 		19C4CB9125C4356500EA8238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19C4CB9425C4356500EA8238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19C4CB9625C4356500EA8238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C4CBA125C4358500EA8238 /* LanguageBasicsLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageBasicsLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C4CBA325C4358500EA8238 /* LanguageBasicsLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageBasicsLabTests.swift; sourceTree = "<group>"; };
+		19C4CBA525C4358500EA8238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C4CBAD25C4359300EA8238 /* Lab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		19C4CB8225C4356300EA8238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C4CB9E25C4358500EA8238 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				19C4CB8725C4356300EA8238 /* LanguageBasicsLab */,
+				19C4CBA225C4358500EA8238 /* LanguageBasicsLabTests */,
 				19C4CB8625C4356300EA8238 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				19C4CB8525C4356300EA8238 /* LanguageBasicsLab.app */,
+				19C4CBA125C4358500EA8238 /* LanguageBasicsLabTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +85,7 @@
 				19C4CB8825C4356300EA8238 /* AppDelegate.swift */,
 				19C4CB8A25C4356300EA8238 /* SceneDelegate.swift */,
 				19C4CB8C25C4356300EA8238 /* ContentView.swift */,
+				19C4CBAD25C4359300EA8238 /* Lab.swift */,
 				19C4CB8E25C4356500EA8238 /* Assets.xcassets */,
 				19C4CB9325C4356500EA8238 /* LaunchScreen.storyboard */,
 				19C4CB9625C4356500EA8238 /* Info.plist */,
@@ -73,6 +100,15 @@
 				19C4CB9125C4356500EA8238 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19C4CBA225C4358500EA8238 /* LanguageBasicsLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C4CBA325C4358500EA8238 /* LanguageBasicsLabTests.swift */,
+				19C4CBA525C4358500EA8238 /* Info.plist */,
+			);
+			path = LanguageBasicsLabTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +131,24 @@
 			productReference = 19C4CB8525C4356300EA8238 /* LanguageBasicsLab.app */;
 			productType = "com.apple.product-type.application";
 		};
+		19C4CBA025C4358500EA8238 /* LanguageBasicsLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C4CBA825C4358500EA8238 /* Build configuration list for PBXNativeTarget "LanguageBasicsLabTests" */;
+			buildPhases = (
+				19C4CB9D25C4358500EA8238 /* Sources */,
+				19C4CB9E25C4358500EA8238 /* Frameworks */,
+				19C4CB9F25C4358500EA8238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C4CBA725C4358500EA8238 /* PBXTargetDependency */,
+			);
+			name = LanguageBasicsLabTests;
+			productName = LanguageBasicsLabTests;
+			productReference = 19C4CBA125C4358500EA8238 /* LanguageBasicsLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +160,10 @@
 				TargetAttributes = {
 					19C4CB8425C4356300EA8238 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					19C4CBA025C4358500EA8238 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 19C4CB8425C4356300EA8238;
 					};
 				};
 			};
@@ -123,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				19C4CB8425C4356300EA8238 /* LanguageBasicsLab */,
+				19C4CBA025C4358500EA8238 /* LanguageBasicsLabTests */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +197,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19C4CB9F25C4358500EA8238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -148,10 +214,28 @@
 				19C4CB8925C4356300EA8238 /* AppDelegate.swift in Sources */,
 				19C4CB8B25C4356300EA8238 /* SceneDelegate.swift in Sources */,
 				19C4CB8D25C4356300EA8238 /* ContentView.swift in Sources */,
+				19C4CBAE25C4359300EA8238 /* Lab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C4CB9D25C4358500EA8238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C4CBA425C4358500EA8238 /* LanguageBasicsLabTests.swift in Sources */,
+				19C4CBB125C4359A00EA8238 /* Lab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C4CBA725C4358500EA8238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C4CB8425C4356300EA8238 /* LanguageBasicsLab */;
+			targetProxy = 19C4CBA625C4358500EA8238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		19C4CB9325C4356500EA8238 /* LaunchScreen.storyboard */ = {
@@ -323,6 +407,46 @@
 			};
 			name = Release;
 		};
+		19C4CBA925C4358500EA8238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K7853APAS;
+				INFOPLIST_FILE = LanguageBasicsLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewcl.LanguageBasicsLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageBasicsLab.app/LanguageBasicsLab";
+			};
+			name = Debug;
+		};
+		19C4CBAA25C4358500EA8238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K7853APAS;
+				INFOPLIST_FILE = LanguageBasicsLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thewcl.LanguageBasicsLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageBasicsLab.app/LanguageBasicsLab";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +464,15 @@
 			buildConfigurations = (
 				19C4CB9A25C4356500EA8238 /* Debug */,
 				19C4CB9B25C4356500EA8238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C4CBA825C4358500EA8238 /* Build configuration list for PBXNativeTarget "LanguageBasicsLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C4CBA925C4358500EA8238 /* Debug */,
+				19C4CBAA25C4358500EA8238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
